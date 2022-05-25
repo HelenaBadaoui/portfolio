@@ -20,6 +20,18 @@ body, h1, h2, h3, p {
   height: 75vh;
 }
 
+.introduction h1 {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+.introduction p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 32px;
+}
+
 .side {
   width: 50%;
   display: flex;
