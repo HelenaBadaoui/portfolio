@@ -16,8 +16,19 @@ body, h1, h2, h3, p {
 
 .introduction {
   display: flex;
+  /* background-color: red; */
+  height: 75vh;
 }
 
 .side {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-device-width: 1024px) {
+  .introduction {
+    flex-direction: column;
+  }
 }
