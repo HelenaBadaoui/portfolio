@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #131514;
+  --main-txt-color: white;
+}
+
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-txt-color);
+  font-family: "Raleway";
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+.introduction {
+  display: flex;
+}
+
+.side {
+  width: 50%;
+}
