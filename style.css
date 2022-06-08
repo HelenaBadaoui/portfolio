@@ -143,6 +143,34 @@ a {
   background-size: contain;
 }
 
+.banner {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: 1.5px solid white;
+  padding: 30px 45px;
+}
+
+.container {
+  min-height: calc(100vh - 40vh);
+  display: flex;
+}
+
+.left {
+  background-color: red;
+}
+.right {
+  background-color: blue;
+}
 
 
 @media (max-device-width: 1024px) {
