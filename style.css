@@ -149,7 +149,7 @@ a {
 /* ------------------------------ */
 
 .banner {
-  height: 40vh;
+  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,7 +166,7 @@ a {
 }
 
 .container {
-  min-height: calc(100vh - 40vh);
+  min-height: calc(100vh - 35vh);
   display: flex;
 }
 
@@ -174,13 +174,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.left {
-  /* background-color: red; */
-}
-.right {
-  /* background-color: blue; */
 }
 
 .description p {
@@ -199,6 +192,11 @@ a {
   background-color: white;
   border: 1px solid white;
   color: var(--main-color);
+}
+
+.landscape img {
+  height: 200px;
+  margin: 10px;
 }
 
 
