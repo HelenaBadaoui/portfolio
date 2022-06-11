@@ -205,15 +205,18 @@ a {
 .landscape img {
   height: 200px;
   margin: 10px;
+  border-radius: 4px;
 }
 
 .portrait {
-  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
 }
 
 .portrait img {
-  width: 200px;
+  height: 360px;
   margin: 10px;
+  border-radius: 4px;
 }
 
 
