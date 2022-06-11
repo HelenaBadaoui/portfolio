@@ -252,6 +252,37 @@ a {
   .secondary-container h2 {
     margin-bottom: 20px;
   }
+
+  /* --------------------------- */
+
+  .banner {
+    height: 20vh;
+  }
+
+  .container {
+    display: block;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .container .side {
+    display: block;
+    margin: 0 auto;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .description p {
+    padding: 20px 100px 30px;
+  }
+
+  .side {
+    display: flex !important;
+  }
+
+  .landscape, .portrait {
+    padding: 25px 0;
+  }
 }
 
 @media (max-device-width: 480px) {
