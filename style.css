@@ -146,6 +146,11 @@ a {
   background-size: contain;
 }
 
+.learning {
+  font-style: italic;
+  font-size: 14px;
+}
+
 /* ------------------------------ */
 
 .banner {
